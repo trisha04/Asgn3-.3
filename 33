@@ -1,0 +1,19 @@
+Hadoop 2.x has the following components:
+a)HDFS:-HDFS stands for hadoop distributed file system.
+It is the file system to store large amounts of data in hadoop.
+Suitable for processing and also for distributed storage as the name suggests.
+It also has built in servers for namenode and datanode.
+Secondary name node is present there to provide data availability.
+Nmaenode manages file system interface and acts as primary master node.
+All the datanodes act as slave nodes and run on low cost commodity nachines
+
+b)YARN:-It stands for Yet Another Resource Negotiator.
+The basic concept of Yarn is splitting up functions of resource management and job scheduling 
+into separate background threads called daemons.
+YARN ensures optimised utilisation of the resources as hadoop works on distributed file systems.
+It is characterised as large scale operating system for distributed big data application
+
+c)MAP REDUCE:-It does the processing of the data which is stored in HDFS.
+It folows divide and conquer policy also the master slave architechture.
+Process of segregation is called Mapper
+and process of aggregation is called Reduce
